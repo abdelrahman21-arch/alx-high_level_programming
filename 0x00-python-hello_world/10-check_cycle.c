@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "lists.h"
 /*
  *file: 10-check_cycle.c
@@ -16,12 +17,12 @@ return (0);
 
 cat = list->next;
 mouse = list->next->next;
-while (cat != NULL && mouse != NULL && mouse->next)
+while (cat && mouse && mouse->next)
 {
 if (cat == mouse)
 return (1);
-cat = list->next;
-mouse = list->next->next;
+cat = cat->next;
+mouse = mouse->next->next;
 }
 
 return (0);
