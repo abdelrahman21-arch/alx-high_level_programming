@@ -10,12 +10,20 @@
 */
 int check_cycle(listint_t *list)
 {
-listint_t *cat;
+  listint_t *cat, *mouse;
 if (list == NULL || list->next == NULL)
 return (0);
+
 cat = list->next;
-while (cat != NULL && cat != list)
-cat = cat->next;
-return (cat == list);
+mouse = list->next->next;
+while (cat != NULL && mouse != NULL && mouse->next)
+{
+if (cat == mouse)
+return (1);
+cat = list->next;
+mouse = list->next->next;
+}
+
+return (0);
 
 }
