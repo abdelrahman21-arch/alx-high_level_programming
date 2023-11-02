@@ -1,0 +1,1 @@
+1-first script test addition function of 2 numbers
