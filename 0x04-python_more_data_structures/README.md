@@ -1,0 +1,1 @@
+1- first script finds the square of all elemnts in a matrix
