@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 1-square.py
 # Sweilam
-
+"""Define a class Square."""
 class square:
     """Represents a square. """
 
