@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-0;10;1c# 3-rectangle.py
+# 3-rectangle.py
 # Sweilam
 """Defines a Rectangle class."""
 
@@ -66,5 +66,5 @@ class Rectangle:
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
-            return("".join(rect))
+        return("".join(rect))
                    
