@@ -1,0 +1,1 @@
+1- first script prints the atrribs of objects 
