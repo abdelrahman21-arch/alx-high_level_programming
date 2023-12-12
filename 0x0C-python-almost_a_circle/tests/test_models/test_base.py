@@ -4,11 +4,13 @@ Unittests classes:
     TestBase_instantiation - line 23
 
 '''
+import sys
+sys.path.append('../..')
 import os
 import unittest
 from models.base import Base
-from rectangle import Rectangle
-from square import Square
+from models.rectangle import Rectangle
+from models.square import Square
 
 class TestBase_instantiation(unittest.TestCase):
     """Unittests for testing instantiation of the Base class."""

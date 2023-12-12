@@ -17,6 +17,7 @@ Unittest classes:
 """
 import io
 import sys
+sys.path.append('../..')
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
