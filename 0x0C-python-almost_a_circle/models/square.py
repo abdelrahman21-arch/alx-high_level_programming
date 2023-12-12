@@ -74,6 +74,7 @@ class Square(Rectangle):
 
 
     def to_dictionary(self):
+        """Converts list objs to dict"""
         return {
             'id': self.id,
             'size': self.width,
