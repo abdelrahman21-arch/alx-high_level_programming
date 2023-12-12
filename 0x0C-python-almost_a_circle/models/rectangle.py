@@ -143,6 +143,7 @@ class Rectangle(Base):
                 elif k == 'y':
                     self.y = v
     def to_dictionary(self):
+        """ Converts list objects to dict"""
         return {
             "id": self.id,
             "width": self.width,
