@@ -14,3 +14,5 @@ if __name__ == "__main__":
     [print(row) for row in rows if state[1][0] == "N"]
     db.close()
 
+
+
