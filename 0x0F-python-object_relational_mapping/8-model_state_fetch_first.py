@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Module that retrieves and prints the first state of a Database"""
 
 import sys
